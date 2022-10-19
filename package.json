@@ -1,0 +1,25 @@
+{
+  "name": "wrap-invoice-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proof-of-concept wrapped invoices to proxy Lightning Network payments.",
+  "main": "poc.js",
+  "scripts": {
+    "wrapInvoice": "node ./wrapInvoice.js"
+  },
+  "author": {
+    "name": "Charles Hill",
+    "email": "chill@degreesofzero.com"
+  },
+  "contributors": [
+    {
+      "name": "Carlos Garcia Ortiz",
+      "email": "yo@carlosgarciaortiz.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ws": "8.9.0"
+  }
+}
